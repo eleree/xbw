@@ -75,40 +75,6 @@ extern "C" void vga_write_pixel(const uint16_t x, const uint16_t y, const uint16
 
 extern "C" void vga_write_frame(const uint16_t x, const uint16_t y, const uint16_t width, const uint16_t height, const uint8_t *data[])
 {
-#if ! DEBUG
-    VGA16_SETPIXEL(x, y, x);
-#else
-/*
-    if(data == NULL)
-        printf("vga_write_frame data is null\r\n");
-    else
-        printf("recv one frame\r\n");
-
-    for(uint16_t  h = 0; h< height;h++)
-    {
-        for(uint16_t w = 0; w < width ; w++)
-        {
-            uint8_t c = 0;
-            if( data != NULL)   {     
-                c = data[h][w];                
-            }
-            #if 0
-            //VGA16_SETPIXEL(w, h, toPalette(myPalette[c]));
-     
-            #else
-            DisplayController.setRawPixel(
-                w,
-                h, 
-                DisplayController.createRawPixel(toRGB222(myPalette[c]))
-            );
-        
-        
-            #endif
-            //fabgl::RGB888 rgb888((fabgl::Color)c);
-            //canvas.setPixel(x+w,y+h, rgb888);
-        }
-    }
-*/
     int xpos, ypos, outputWidth, outputHeight;
 
     if(1){

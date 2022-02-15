@@ -3,13 +3,25 @@
 > 借助开源的力量，也拖拖拉拉也赶在春节前做好，让小孩子玩了一把，自己也能回味一下
 >
 > 总之是个比较有意思的小项目，现在也开源出来吧
-## 演示视频
 
-这个还不会做视频，后续再补上
+    ![](03.Image/up.png)
+    ![](03.Image/down.png)
+
+## 演示视频
+**菜单选项**
+    ![](03.Image/title.png)
+
+**游戏画面**
+    ![](03.Image/demo.png)
+
+> * [https://www.bilibili.com/video/BV1AS4y1V7Dq/](https://www.bilibili.com/video/BV1AS4y1V7Dq/)
+
 
 ## 固件编译说明
 这里使用的是ESP32-WROVER-E搭配ESP32-IDF V3.3.5进行编译
 相信会ESP32的编译都不是问题 :D
+
+使用TF卡需要注意GPIO12引脚的配置，需要使用修改efuse
 
 ## 感谢
 > * [FABGL](http://www.fabglib.org/)
