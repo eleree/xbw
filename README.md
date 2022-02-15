@@ -4,8 +4,8 @@
 >
 > 总之是个比较有意思的小项目，现在也开源出来吧
 
-    ![](03.Image/up.png)
-    ![](03.Image/down.png)
+![](03.Image/up.png)
+![](03.Image/down.png)
 
 ## 演示视频
 **菜单选项**
