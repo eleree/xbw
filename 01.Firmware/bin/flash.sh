@@ -1,0 +1,2 @@
+python /home/esp32/esp-idf-v3.3.5/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size detect 0x1000 /home/esp32/github/xbw/01.Firmware/bin/bootloader/bootloader.bin 0xf000 /home/esp32/github/xbw/01.Firmware/bin/phy_init_data.bin 0x10000 /home/esp32/github/xbw/01.Firmware/bin/nesemu.bin 0x8000 /home/esp32/github/xbw/01.Firmware/bin/partitions.bin
+

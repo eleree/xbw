@@ -91,8 +91,6 @@ extern "C" void vga_write_frame(const uint16_t x, const uint16_t y, const uint16
     if(data == NULL)
         return;
     DisplayController.writeScreenPalette(rect, data, myPalette);
-    //printf("x:%d y%d\r\n", width, height);
-#endif
     
 }
 
